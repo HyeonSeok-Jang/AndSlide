@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
     ViewPager vp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#000000ff")));
-        getSupportActionBar().setStackedBackgroundDrawable(new ColorDrawable(Color.parseColor("#000000ff")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#555555ff")));
+        getSupportActionBar().setStackedBackgroundDrawable(new ColorDrawable(Color.parseColor("#555555ff")));
 
 
         super.onCreate(savedInstanceState);
